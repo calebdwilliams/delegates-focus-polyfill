@@ -5,7 +5,7 @@
   "main": "./dist/delegates-focus.js",
   "module": "./dist/delegates-focus.js",
   "files": [
-    "dist/adoptedStyleSheets.js"
+    "dist/delegates-focus.js"
   ],
   "scripts": {
     "test": "karma start",
