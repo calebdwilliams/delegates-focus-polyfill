@@ -1,0 +1,40 @@
+{
+  "name": "delegates-focus-polyfill",
+  "version": "0.0.0",
+  "description": "A polyfill for the attachShadow delegatesFocus option",
+  "main": "./dist/delegates-focus.js",
+  "module": "./dist/delegates-focus.js",
+  "files": [
+    "dist/adoptedStyleSheets.js"
+  ],
+  "scripts": {
+    "test": "karma start",
+    "start": "rollup -c --watch --environment BUILD:dev",
+    "build": "rollup -c --environment BUILD:production",
+    "prerelease": "npm run build",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin master; npm publish"
+  },
+  "keywords": [
+    "delegates",
+    "focus",
+    "delegatesFocus",
+    "shadow",
+    "DOM",
+    "shadowDOM",
+    "customelement",
+    "webcomponents",
+    "attachShadow",
+    "focus"
+  ],
+  "author": "Caleb D. Williams <caleb.d.williams@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "element-internals-polyfill": "0.0.1",
+    "rollup": "^1.27.0",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "standard-version": "^7.0.0"
+  }
+}
