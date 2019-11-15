@@ -1,6 +1,6 @@
 {
   "name": "delegates-focus-polyfill",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A polyfill for the attachShadow delegatesFocus option",
   "main": "./dist/delegates-focus.js",
   "module": "./dist/delegates-focus.js",
