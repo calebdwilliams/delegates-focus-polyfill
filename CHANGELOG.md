@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/calebdwilliams/delegates-focus-polyfill/compare/v0.0.4...v0.0.5) (2019-11-17)
+
+
+### Bug Fixes
+
+* **package:** Add repository ([236b3ec](https://github.com/calebdwilliams/delegates-focus-polyfill/commit/236b3ec453055d7a9a9af9fb758ac22739c8e31e))
+
 ### [0.0.4](https://github.com/calebdwilliams/delegates-focus-polyfill/compare/v0.0.3...v0.0.4) (2019-11-15)
 
 
