@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/calebdwilliams/delegates-focus-polyfill/compare/v0.0.5...v0.0.6) (2020-06-19)
+
+
+### Bug Fixes
+
+* **polyfill:** now returns shadowRoot ([7d8f9c1](https://github.com/calebdwilliams/delegates-focus-polyfill/commit/7d8f9c1b7306172087374123c6f8539846b3876e))
+
 ### [0.0.5](https://github.com/calebdwilliams/delegates-focus-polyfill/compare/v0.0.4...v0.0.5) (2019-11-17)
 
 
