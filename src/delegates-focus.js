@@ -17,6 +17,7 @@ if (!_div.shadowRoot.delegatesFocus) {
           focusable[0].focus();
         }
       }
+      return shadowRoot;
     }
   });
 }
