@@ -9,7 +9,7 @@ const plugins = [
 const config = {
   input: 'src/delegates-focus.js',
   output: {
-    format: 'esm',
+    format: 'iife',
     file: 'dist/delegates-focus.js'
   },
   plugins

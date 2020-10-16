@@ -12,9 +12,11 @@ if (!_div.shadowRoot.delegatesFocus) {
         const focus = this.focus;
 
         this.focus = function() {
-          const focusable = shadowRoot.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+          const [target] = shadowRoot.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"]), [contenteditable]');
           focus.bind(this)();
-          focusable[0].focus();
+          if (target) {
+            target.focus();
+          }
         }
       }
       return shadowRoot;
