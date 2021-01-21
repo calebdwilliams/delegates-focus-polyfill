@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/calebdwilliams/delegates-focus-polyfill/compare/v0.0.6...v0.0.7) (2021-01-21)
+
+
+### Bug Fixes
+
+* match Chrome implementation ([2d69c62](https://github.com/calebdwilliams/delegates-focus-polyfill/commit/2d69c626e6e3f43b28d02e3208979e9c1999c3d6))
+
 ### [0.0.6](https://github.com/calebdwilliams/delegates-focus-polyfill/compare/v0.0.5...v0.0.6) (2020-06-19)
 
 
